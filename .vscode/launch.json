@@ -1,0 +1,28 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadjustmentApplication",
+            "request": "launch",
+            "mainClass": "com.nttdata.sre.Readjustment.ReadjustmentApplication",
+            "projectName": "Readjustment"
+        },
+        {
+            "type": "java",
+            "name": "Launch Equipe2Application",
+            "request": "launch",
+            "mainClass": "com.ntt.sre.reajuste.equipe2.Equipe2Application",
+            "projectName": "equipe2"
+        }
+    ]
+}
